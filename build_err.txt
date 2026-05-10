@@ -1,0 +1,34 @@
+
+> vite-react-typescript-starter@0.0.0 build
+> vite build
+
+[36mvite v5.4.8 [32mbuilding for production...[36m[39m
+transforming...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[32mÔ£ô[39m 23 modules transformed.
+x Build failed in 981ms
+error during build:
+[vite:esbuild] Transform failed with 1 error:
+C:/Users/Admin/Desktop/VivreFrais-main/VivreFrais-main/src/data/cities.ts:1547:21: ERROR: Expected "}" but found "Or"
+file: C:/Users/Admin/Desktop/VivreFrais-main/VivreFrais-main/src/data/cities.ts:1547:21
+
+Expected "}" but found "Or"
+1545|    {
+1546|      id: 'val-dor',
+1547|      name: 'Val-d\'Or'Or',
+   |                       ^
+1548|      region: 'Abitibi-T├®miscamingue',
+1549|      description: 'Ville mini├¿re (or) avec une forte ├®conomie bas├®e sur les ressources.',
+
+    at failureErrorWithLog (C:\Users\Admin\Desktop\VivreFrais-main\VivreFrais-main\node_modules\esbuild\lib\main.js:1472:15)
+    at C:\Users\Admin\Desktop\VivreFrais-main\VivreFrais-main\node_modules\esbuild\lib\main.js:755:50
+    at responseCallbacks.<computed> (C:\Users\Admin\Desktop\VivreFrais-main\VivreFrais-main\node_modules\esbuild\lib\main.js:622:9)
+    at handleIncomingPacket (C:\Users\Admin\Desktop\VivreFrais-main\VivreFrais-main\node_modules\esbuild\lib\main.js:677:12)
+    at Socket.readFromStdout (C:\Users\Admin\Desktop\VivreFrais-main\VivreFrais-main\node_modules\esbuild\lib\main.js:600:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)

@@ -1,0 +1,34 @@
+
+> vite-react-typescript-starter@0.0.0 build
+> vite build
+
+[36mvite v5.4.8 [32mbuilding for production...[36m[39m
+transforming...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[32m✓[39m 23 modules transformed.
+x Build failed in 1.18s
+error during build:
+[vite:esbuild] Transform failed with 1 error:
+C:/Users/Admin/Desktop/VivreFrais-main/VivreFrais-main/src/data/cities.ts:47:44: ERROR: Expected "}" but found "impressionnantes"
+file: C:/Users/Admin/Desktop/VivreFrais-main/VivreFrais-main/src/data/cities.ts:47:44
+
+Expected "}" but found "impressionnantes"
+45 |      name: 'Baie-Comeau',
+46 |      region: 'Côte-Nord',
+47 |      description: 'Ville industrielle avec d'impressionnantes infrastructures hydroélectriques.',
+   |                                              ^
+48 |      population: 21000,
+49 |      tags: ['Industrie', 'Hydroélectricité', 'Côtier'],
+
+    at failureErrorWithLog (C:\Users\Admin\Desktop\VivreFrais-main\VivreFrais-main\node_modules\esbuild\lib\main.js:1472:15)
+    at C:\Users\Admin\Desktop\VivreFrais-main\VivreFrais-main\node_modules\esbuild\lib\main.js:755:50
+    at responseCallbacks.<computed> (C:\Users\Admin\Desktop\VivreFrais-main\VivreFrais-main\node_modules\esbuild\lib\main.js:622:9)
+    at handleIncomingPacket (C:\Users\Admin\Desktop\VivreFrais-main\VivreFrais-main\node_modules\esbuild\lib\main.js:677:12)
+    at Socket.readFromStdout (C:\Users\Admin\Desktop\VivreFrais-main\VivreFrais-main\node_modules\esbuild\lib\main.js:600:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
